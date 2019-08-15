@@ -1,0 +1,11 @@
+# List files or directories below to ignore them when running prettier
+# More information: https://prettier.io/docs/en/ignore.html
+#
+
+.sfdx
+package.xml
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+# LWC Jest
+**/__tests__/**
